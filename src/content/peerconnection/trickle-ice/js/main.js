@@ -90,8 +90,8 @@ function addServer() {
   const option = document.createElement('option');
   const iceServer = {
     urls: [urlInput.value],
-    username: usernameInput.value,
-    credential: passwordInput.value
+    //username: usernameInput.value,
+    //credential: passwordInput.value
   };
   option.value = JSON.stringify(iceServer);
   option.text = `${urlInput.value} `;
